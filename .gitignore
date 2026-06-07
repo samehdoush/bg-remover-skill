@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model weights (auto-downloaded by rembg)
+.u2net/
+*.onnx
+models/
+
+# Output samples
+output/
+out/
+samples/
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
