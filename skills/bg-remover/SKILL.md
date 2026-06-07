@@ -2,7 +2,7 @@
 name: bg-remover
 description: Remove or replace image backgrounds using AI. Use this skill when the user wants to remove a background from a photo, create a transparent PNG, isolate a subject, replace a background with a solid color or another image, or batch-process product photos. Powered by the open-source rembg library with 16 specialized AI models (BiRefNet, ISNet, U2Net, SAM) for portraits, anime, products, and general images. Runs locally, no API keys, no cloud.
 allowed-tools: Bash, Read, Glob
-argument-hint: [image-path] [--model NAME] [--bg-color HEX] [--bg-image PATH]
+argument-hint: "<image-path> [--model NAME] [--bg-color HEX] [--bg-image PATH]"
 ---
 
 # Background Remover
